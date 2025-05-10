@@ -72,12 +72,13 @@ body {
     flex: 1;
   }
   .command-box {
-    background-color: rgba(255, 255, 255, 0.05); /* 半透明（暗い背景用） */
-    border-radius: 16px; /* 丸み */
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
     padding: 20px;
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* ほんのり影をつける */
     border: 1px solid rgba(255, 255, 255, 0.1); /* 薄い枠線（任意） */
   }
-  
-  
+  nav {
+  white-space: nowrap;
+}
